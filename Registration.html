@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomePage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="nav">
+        <nav>
+            <h1>BUSOLAMI</h1>
+            <div class="link">
+                <ul>
+                    <li><a href="index.html">HomePage</a></li>
+                    <li><a href="Registration.html">Registration</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="reg_form">
+            <h1>Registration Form</h1>
+            <form action="/google" method="post">
+                <div class="name">
+                    <input type="text" placeholder="Firstname" required>
+                    <label for="Firstname">Firstname</label>
+                </div>
+                <div class="name">
+                    <input type="text" placeholder="Lastname" required>
+                    <label for="Lastname">Lastname</label>
+                </div>
+                <div class="name">
+                    <input type="text" placeholder="Username" required>
+                    <label for="username">Username</label>
+                </div>
+                <div class="name">
+                    <input type="text" placeholder="Email Address" required>
+                    <label for="Email">Email Address</label>
+                </div>
+                <div class="name">
+                    <input type="text" placeholder="State of Origin">
+                    <label for="state">State of Origin</label>
+                </div>
+                <div class="name">
+                    <input type="text" placeholder="country">
+                    <label for="text">Country</label>
+                </div>
+                <div>
+                    <select name="gender" id="gender">
+                        <option value="Female">Female</option>
+                        <option value="Male">Male</option>
+                        <option value="other">Others</option>
+                    </select>
+                </div>
+                <div class="name">
+                    <input type="phone" placeholder="Phone Number" required>
+                    <label for="country code">Phone Number</label>
+                </div>
+                <div class="name">
+                    <input type="password" placeholder="Required Password">
+                    <label for="password">Reqired Password</label>
+                </div>
+                <div class="name">
+                    <input type="password" placeholder="Confirm Password">
+                    <label for="password">Cofirm Password</label>
+                </div>
+                <br>
+                <input type="submit" name="" value="Submit">
+            </form>
+            <div class="log">
+                Already have an account <a href="login.html">LogIn</a>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
